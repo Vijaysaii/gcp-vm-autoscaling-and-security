@@ -1,0 +1,16 @@
+IAM ROLE CONFIGURATION
+
+Project ID: g25ai1016
+
+ROLE ASSIGNMENT
+
+Principal Type: User Assigned Role: Viewer (roles/viewer)
+Access ID: VijaySaikrishna.d@gmail.com
+VALIDATION RESULTS
+
+-   User can view VM instances and monitoring dashboards.
+-   User cannot SSH into instances.
+-   User cannot modify or delete resources.
+-   Permission denied observed for compute.instances.setMetadata.
+
+This confirms enforcement of the principle of least privilege.

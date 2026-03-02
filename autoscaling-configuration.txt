@@ -1,0 +1,15 @@
+AUTOSCALING CONFIGURATION
+
+Project ID: g25ai1016 Managed Instance Group: g25ai1016-instance-group
+Instance Template: g25ai1016-instance-template-basic1
+
+INSTANCE TEMPLATE DETAILS
+
+Machine Type: e2-micro Operating System: Debian 11 Region: asia-south1
+Zone: asia-south1-c
+
+AUTOSCALING POLICY
+
+Autoscaling Mode: Enabled Minimum Instances: 1 Maximum Instances: 3
+Metric: CPU Utilization Target CPU Utilization: 60% Cooldown Period: 60
+seconds Scaling Based On: Average CPU utilization across instances

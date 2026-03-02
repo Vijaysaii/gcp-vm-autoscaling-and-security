@@ -1,0 +1,9 @@
+FIREWALL CONFIGURATION
+
+Network: default Rule Name: allow-http Direction: Ingress Action: Allow
+Source Filter: IPv4 ranges Source IPv4 Range: 0.0.0.0/0 Protocol: TCP
+Port: 80 Priority: 1000
+
+DEFAULT RULE UTILIZED
+
+default-allow-ssh (TCP 22)
